@@ -2,10 +2,11 @@
 
 int main(void) {
 
-    int carros[10];
-    int i;
-    for (i=0; i<=10; i++){
-        printf("%d", carros[i]);
-    }
+    //strings
+    char nome[]={"caio\n"};
+    printf("%s", nome);
     return 0;
+
+    int nome2[10][10];
+
 }
